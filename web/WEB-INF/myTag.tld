@@ -8,7 +8,7 @@
     <uri>/WEB-INF/myTag</uri>
     <tag>
         <name>commandTag</name>
-        <tag-class>tags.CommandTag</tag-class>
+        <tag-class>ua.kiev.univ.courses.project4.hotel.tags.CommandTag</tag-class>
         <body-content>scriptless</body-content>
         <attribute>
             <name>command</name>

@@ -5,7 +5,7 @@
          version="3.1">
     <servlet>
         <servlet-name>Controller</servlet-name>
-        <servlet-class>servlets.Controller</servlet-class>
+        <servlet-class>ua.kiev.univ.courses.project4.hotel.servlets.Controller</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>Controller</servlet-name>
@@ -20,7 +20,7 @@
     </servlet-mapping>
     <filter>
         <filter-name>CheckAuthFilter</filter-name>
-        <filter-class>filters.CheckAuthFilter</filter-class>
+        <filter-class>ua.kiev.univ.courses.project4.hotel.filters.CheckAuthFilter</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>CheckAuthFilter</filter-name>
